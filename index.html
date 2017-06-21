@@ -12,6 +12,13 @@
   </head>
 
   <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1>GuardTime Technology Demo</h1>
+        </div>
+      </div>
+    </header>
     <input type = "button" id = "btnReset" value = "Reset" onclick = "loadInitial();">
     <br>
     <input type = "text" placeholder="Enter Your Name" id = "txtSearch"
@@ -23,5 +30,7 @@
     <input type = "button" id = "btnLocal" value = "Local" class = "hidden" onclick = "doLocal();">
     <input type = "button" id = "btnDist" value = "Distributed" class = "hidden" onclick = "doDist();">
     <input type = "button" id = "btnGT" value = "GuardTime" class = "hidden" onclick = "doGT();">
+    <br>
+    <div class = "hiddenLocalMsg" id ="localMsg"> Saved Local</div>
   </body>
 </html>
